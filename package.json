@@ -1,0 +1,23 @@
+{
+  "name": "cra-template-react-wizard",
+  "version": "1.0.2",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "description": "Create React App Based on the React Wizard",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donald Whitely <dswhitely1@gmail.com> (donwhitely.com)",
+  "license": "MIT",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
