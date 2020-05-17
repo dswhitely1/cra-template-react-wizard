@@ -5,9 +5,11 @@ export enum DemoTypes {
 }
 
 export interface Alert {
-    headline: string
-    description: string
-    instruction: string
+    properties: {
+        headline: string
+        description: string
+        instruction: string
+    }
 }
 
 export interface DemoState {

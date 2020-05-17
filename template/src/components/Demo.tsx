@@ -22,7 +22,7 @@ function DemoContainer() {
     return (
         <div>
             <h1>Current Weather Alerts</h1>
-            {alerts.map(({headline, instruction, description}: Alert, id: number) => (
+            {alerts.map(({properties: {headline, instruction, description}}: Alert, id: number) => (
                 <div key={id}>
                     <h2>{headline}</h2>
                     <h3>{instruction}</h3>
