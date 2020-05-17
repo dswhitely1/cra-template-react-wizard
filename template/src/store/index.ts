@@ -9,3 +9,5 @@ const enhancers = applyMiddleware(...middleware)
 const isProduction = process.env.NODE_ENV === "production"
 
 const store = isProduction ? createStore(rootReducer) : createStore(rootReducer, composeWithDevTools(enhancers))
+
+export default store
