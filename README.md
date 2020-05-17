@@ -1,20 +1,20 @@
-# cra-template-react-wizard
+# Create React Template -- React Wizard
 
 This is the template that I use to create a new React App.
+Updated May 16, 2020
 
-Usage: ```npx create-react-app app-name --template react-wizard```
+## Usage:
+ ```sh
+ npx create-react-app app-name --template react-wizard
+```
 
-It includes the following packages:
-- redux
-- react-redux
-- redux-devtools-extension
-- redux-logger
-- react-router-dom
-- axios
-- moment
-- @material-ui/core
-- @material-ui/icons
-- react-loader-spinner
-- serve
-- styled-components
+It Comes with the Following Packages:
+--
+ - Material UI, Core and Icons
+ - Axios
+ - Create A Reducer
+ - React Loader Spinner
+ - Redux, React-Redux, Redux-Logger, Redux-Devtools-Extension
+ - TypeScript
+ 
 
